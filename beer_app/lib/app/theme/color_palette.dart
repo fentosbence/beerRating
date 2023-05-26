@@ -8,4 +8,6 @@ class ColorPalette {
   static const white = Colors.white;
   static const gray = Color(0xFFE4E4E4);
   static const yellow = Color(0xFFFFD02B);
+
+  static const shadow = Color.fromRGBO(18, 14, 66, 0.1);
 }

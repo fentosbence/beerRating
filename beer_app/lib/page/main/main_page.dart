@@ -1,8 +1,12 @@
+import 'package:beer_app/app/theme/color_palette.dart';
 import 'package:beer_app/app/theme/sizes.dart';
+import 'package:beer_app/app/theme/theme.dart';
 import 'package:beer_app/core/provider/beer_provider.dart';
 import 'package:beer_app/page/main/beer_list_item.dart';
+import 'package:beer_app/page/main/sliver_header_delegate.dart';
 import 'package:beer_app/widget/button.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 
 import '../../widget/gaps.dart';
@@ -23,16 +27,19 @@ class _MainPageState extends State<MainPage> {
   Widget build(BuildContext context) {
     final beers = Provider.of<BeerProvider>(context);
 
-    return Scaffold(
-      body: Padding(
-        padding: Paddings.horizontal40,
-        child: CustomScrollView(
+    return AnnotatedRegion<SystemUiOverlayStyle>(
+      value: AppTheme.getSystemTheme(
+        systemNavigationBarColor: ColorPalette.transparent,
+      ),
+      child: Scaffold(
+        body: CustomScrollView(
           slivers: [
-            // SliverPersistentHeader(
-            //   delegate: SliverHeaderDelegate(context),
-            //   pinned: true,
-            // ),
+            SliverPersistentHeader(
+              delegate: SliverHeaderDelegate.from(context, "List of beers"),
+              pinned: true,
+            ),
             SliverListBuilder(
+              padding: Paddings.horizontal40,
               childCount: beers.beers?.length ?? 0,
               separator: const Separator(),
               itemBuilder: (BuildContext context, int index) {
@@ -42,6 +49,7 @@ class _MainPageState extends State<MainPage> {
               },
             ),
             SliverChildren(
+              padding: Paddings.all16,
               children: [
                 Button(text: "See 5 best beers", onTap: () {}),
                 Vgap.systemNavbar(context),
