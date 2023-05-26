@@ -6,6 +6,7 @@ extension BuildContextExtensions on BuildContext {
 
   MediaQueryData get media => MediaQuery.of(this);
   double get screenWidth => media.size.width;
+  double get screenHeight => media.size.height;
   double get statusBarHeight => media.padding.top;
   double get bottomNavBarHeight => media.viewPadding.bottom;
 

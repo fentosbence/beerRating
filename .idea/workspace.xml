@@ -10,28 +10,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6cdb48d0-2a5e-4cdf-958c-ac33b39832d4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/beer_app/assets/img/2.0x/arrow_down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beer_app/assets/img/2.0x/arrow_up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beer_app/assets/img/3.0x/arrow_down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beer_app/assets/img/3.0x/arrow_up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beer_app/assets/img/arrow_down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beer_app/assets/img/arrow_up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beer_app/lib/page/detail/details_content.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beer_app/lib/page/detail/details_page.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beer_app/lib/repository/model/ingredients.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beer_app/lib/widget/ripple.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/page/detail/details_sliver_header_delegate.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/widget/header/app_header_icon.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beer_app/lib/api/model/beer_response.dart" beforeDir="false" afterPath="$PROJECT_DIR$/beer_app/lib/api/model/beer_response.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beer_app/lib/api/model/beer_response.g.dart" beforeDir="false" afterPath="$PROJECT_DIR$/beer_app/lib/api/model/beer_response.g.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beer_app/lib/app/routing/app_router.dart" beforeDir="false" afterPath="$PROJECT_DIR$/beer_app/lib/app/routing/app_router.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beer_app/lib/app/theme/assets.dart" beforeDir="false" afterPath="$PROJECT_DIR$/beer_app/lib/app/theme/assets.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beer_app/lib/app/theme/sizes.dart" beforeDir="false" afterPath="$PROJECT_DIR$/beer_app/lib/app/theme/sizes.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beer_app/lib/core/provider/beer_provider.dart" beforeDir="false" afterPath="$PROJECT_DIR$/beer_app/lib/core/provider/beer_provider.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beer_app/lib/page/main/beer_list_item.dart" beforeDir="false" afterPath="$PROJECT_DIR$/beer_app/lib/page/main/beer_list_item.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_app/lib/page/detail/details_content.dart" beforeDir="false" afterPath="$PROJECT_DIR$/beer_app/lib/page/detail/details_content.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_app/lib/page/detail/details_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/beer_app/lib/page/detail/details_page.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/beer_app/lib/page/main/main_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/beer_app/lib/page/main/main_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beer_app/lib/repository/model/beer.dart" beforeDir="false" afterPath="$PROJECT_DIR$/beer_app/lib/repository/model/beer.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beer_app/lib/repository/model_mapper.dart" beforeDir="false" afterPath="$PROJECT_DIR$/beer_app/lib/repository/model_mapper.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beer_app/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/beer_app/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_app/lib/page/main/sliver_header_delegate.dart" beforeDir="false" afterPath="$PROJECT_DIR$/beer_app/lib/page/main/sliver_header_delegate.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_app/lib/util/build_context_extension.dart" beforeDir="false" afterPath="$PROJECT_DIR$/beer_app/lib/util/build_context_extension.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_app/lib/widget/app_image.dart" beforeDir="false" afterPath="$PROJECT_DIR$/beer_app/lib/widget/app_image.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

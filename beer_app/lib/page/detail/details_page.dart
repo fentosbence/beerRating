@@ -1,5 +1,7 @@
+import 'package:beer_app/app/theme/color_palette.dart';
 import 'package:beer_app/app/theme/fonts.dart';
 import 'package:beer_app/core/provider/beer_provider.dart';
+import 'package:beer_app/page/detail/details_sliver_header_delegate.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -26,13 +28,15 @@ class _DetailsPageState extends State<DetailsPage> {
     return Scaffold(
       body: CustomScrollView(
         slivers: [
-          // SliverPersistentHeader(
-          //   delegate: DetailsSliverHeaderDelegate.from(
-          //     context,
-          //     beer.imageUrl,
-          //   ),
-          //   pinned: true,
-          // ),
+          SliverPersistentHeader(
+            delegate: DetailsSliverHeaderDelegate.from(
+              context,
+              showBackButton: true,
+              title: beer?.name ?? "",
+              overlayerImageUrl: beer?.imageUrl,
+            ),
+            pinned: true,
+          ),
           (beer != null)
               ? SliverChild(
                   child: DetailsContent(

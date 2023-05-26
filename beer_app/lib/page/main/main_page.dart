@@ -1,4 +1,6 @@
+import 'package:beer_app/app/theme/assets.dart';
 import 'package:beer_app/app/theme/color_palette.dart';
+import 'package:beer_app/app/theme/fonts.dart';
 import 'package:beer_app/app/theme/sizes.dart';
 import 'package:beer_app/app/theme/theme.dart';
 import 'package:beer_app/core/provider/beer_provider.dart';
@@ -35,7 +37,27 @@ class _MainPageState extends State<MainPage> {
         body: CustomScrollView(
           slivers: [
             SliverPersistentHeader(
-              delegate: SliverHeaderDelegate.from(context, "List of beers"),
+              delegate: SliverHeaderDelegate.from(
+                context,
+                showBackButton: false,
+                title: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Text(
+                      "List of beers",
+                      style: Fonts.headlineLarge.bold
+                          .copyWith(color: ColorPalette.white),
+                      maxLines: 1,
+                    ),
+                    Hgap.size8(),
+                    const Image(
+                      image: Assets.imgBeer,
+                      height: 32,
+                      width: 32,
+                    )
+                  ],
+                ),
+              ),
               pinned: true,
             ),
             SliverListBuilder(

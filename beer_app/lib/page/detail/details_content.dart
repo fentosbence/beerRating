@@ -107,6 +107,9 @@ class DetailsContent extends StatelessWidget {
                 ),
               ],
             ),
+            SizedBox(
+              height: 300,
+            ),
             Vgap.systemNavbar(context),
           ],
         ),

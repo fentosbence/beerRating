@@ -11,6 +11,7 @@ class AppImage extends StatelessWidget {
   final double? width, height;
   final BoxFit fit;
   final bool useOldImageOnUrlChange;
+  final Color backgroundColor;
 
   const AppImage({
     Key? key,
@@ -19,6 +20,7 @@ class AppImage extends StatelessWidget {
     this.height = 134,
     this.fit = BoxFit.contain,
     this.useOldImageOnUrlChange = true,
+    this.backgroundColor = ColorPalette.yellow,
   }) : super(key: key);
 
   @override
@@ -30,14 +32,13 @@ class AppImage extends StatelessWidget {
     return Container(
       height: height,
       width: width,
+      padding: Paddings.all8,
       decoration: BoxDecoration(
-          color: ColorPalette.yellow,
+          color: backgroundColor,
           borderRadius: BorderRadius.circular(Sizes.radius10)),
       child: Center(
         child: CachedNetworkImage(
           imageUrl: url!,
-          width: 27,
-          height: 107,
           fit: fit,
           fadeInDuration: Durations.mediumEnter,
           fadeOutDuration: Durations.mediumExit,
