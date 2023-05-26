@@ -1,38 +1,300 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="6cdb48d0-2a5e-4cdf-958c-ac33b39832d4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/beer-rating.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/.metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/analysis_options.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/android/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/android/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/android/app/google-services.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/android/app/src/debug/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/android/app/src/main/kotlin/com/example/beer_app/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/android/app/src/main/res/drawable-v21/launch_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/android/app/src/main/res/drawable/launch_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/android/app/src/main/res/drawable/no_app_icon_splash_hack.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/android/app/src/main/res/values-v31/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/android/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/android/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/android/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/android/app/src/profile/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/android/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/android/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/android/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/assets/font/Poppins-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/assets/font/Poppins-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/assets/font/Poppins-ExtraBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/assets/font/Poppins-ExtraLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/assets/font/Poppins-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/assets/font/Poppins-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/assets/font/Poppins-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/assets/font/Poppins-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/assets/font/Poppins-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/assets/img/2.0x/beer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/assets/img/3.0x/beer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/assets/img/beer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/assets/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/ios/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/ios/Flutter/AppFrameworkInfo.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/ios/Flutter/Debug.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/ios/Flutter/Release.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/ios/Runner.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/ios/Runner/AppDelegate.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/ios/Runner/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/ios/Runner/Base.lproj/Main.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/ios/Runner/GoogleService-Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/ios/Runner/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/ios/Runner/Runner-Bridging-Header.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/ios/firebase_app_id_file.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/l10n.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/api/api.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/api/api_client.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/api/model/beer_response.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/api/parser.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/api/request_decorator.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/app/app.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/app/config/config.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/app/ioc.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/app/routing/app_router.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/app/routing/go_router_utils.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/app/routing/routes.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/app/theme/assets.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/app/theme/color_palette.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/app/theme/durations.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/app/theme/fonts.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/app/theme/sizes.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/core/app_scaffold.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/core/display.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/core/error/app_error.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/core/error/error_display.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/core/error/exception_mapper.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/core/error/exceptions.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/core/error/modal_error.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/core/provider/beer_provider.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/core/provider/error_handler.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/core/provider/ui_handler.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/firebase_options.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/l10n/app_hu.arb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/l10n/l10n.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/l10n/l10n_handler.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/main.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/page/beer_details_page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/page/main/beer_list_item.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/page/main/main_page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/page/splash/logo_image.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/page/splash/splash_model.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/page/splash/splash_page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/repository/content_repository.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/repository/model/beer.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/repository/model/beer_type.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/repository/model_mapper.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/service/content_service.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/service/firebase_init.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/service/platform_service.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/service/track/console_log_reporter.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/service/track/log_reporter.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/service/track/logger.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/util/build_context_extension.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/util/iterable_extensions.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/widget/app_image.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/widget/button.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/widget/dialog/dialog_container.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/widget/gaps.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/widget/separator.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/widget/slivers.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/pubspec.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/pubspec.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/tools/generate-json.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/web/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/web/icons/Icon-192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/web/icons/Icon-512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/web/icons/Icon-maskable-192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/web/icons/Icon-maskable-512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/web/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/web/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/analysis_options.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/android/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/android/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/android/app/src/debug/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/android/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/android/app/src/main/kotlin/com/example/beer_rating/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/android/app/src/main/res/drawable-v21/launch_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/android/app/src/main/res/drawable/launch_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/android/app/src/main/res/values-night/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/android/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/android/app/src/profile/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/android/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/android/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/android/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/ios/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/ios/Flutter/AppFrameworkInfo.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/ios/Flutter/Debug.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/ios/Flutter/Release.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/ios/Runner.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/ios/Runner/AppDelegate.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/ios/Runner/Base.lproj/LaunchScreen.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/ios/Runner/Base.lproj/Main.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/ios/Runner/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/ios/Runner/Runner-Bridging-Header.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/lib/main.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/pubspec.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/pubspec.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/test/widget_test.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/web/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/web/icons/Icon-192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/web/icons/Icon-512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/web/icons/Icon-maskable-192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/web/icons/Icon-maskable-512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/web/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_rating/web/manifest.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="resourceFile" />
+        <option value="valueResourceFile" />
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2NggJNWBKgWQBXsOiSLTyM08Hzm" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "cidr.known.project.marker": "true",
     "dart.analysis.tool.window.visible": "false",
+    "io.flutter.reload.alreadyRun": "true",
+    "last_opened_file_path": "D:/Flutter/BeerRating/beer-app/beer_app/android/app/src/main/res/mipmap-hdpi",
+    "settings.editor.selected.configurable": "flutter.settings",
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Flutter\BeerRating\beer-app\beer_app\android\app\src\main\res\mipmap-hdpi" />
+      <recent name="D:\Flutter\BeerRating\beer-app\beer_app\android\app\src\main\res\mipmap-mdpi" />
+      <recent name="D:\Flutter\BeerRating\beer-app\beer_app\android\app\src\main\res\mipmap-xxhdpi" />
+      <recent name="D:\Flutter\BeerRating\beer-app\beer_app\android\app\src\main\res\mipmap-xxxhdpi" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Flutter\BeerRating\beer-app\beer_app\lib\core\provider" />
+      <recent name="D:\Flutter\BeerRating\beer-app\beer_app\lib\core" />
+      <recent name="D:\Flutter\BeerRating\beer-app\beer_app\lib\repository\model" />
+      <recent name="D:\Flutter\BeerRating\beer-app\beer_app\assets\img" />
+      <recent name="D:\Flutter\BeerRating\beer-app\beer_app\lib\page\splash" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
-      <option name="filePath" value="$PROJECT_DIR$/beer_rating/lib/main.dart" />
+    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/beer_app/lib/main.dart" />
       <method v="2" />
     </configuration>
   </component>
@@ -46,5 +308,50 @@
       <updated>1680091078844</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/beer_app/lib/repository/content_repository.dart</url>
+          <line>16</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/beer_app/lib/api/parser.dart</url>
+          <line>16</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/beer_app/lib/api/model/beer_response.dart</url>
+          <line>37</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/beer_app/lib/api/api_client.dart</url>
+          <line>43</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="FlutterRunConfigurationType">
+        <watch expression="source" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

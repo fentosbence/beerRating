@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="postSplashScreenTheme">@style/LaunchTheme</item>
+        <item name="windowSplashScreenBackground">@color/yellow</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/no_app_icon_splash_hack</item>
+    </style>
+</resources>
