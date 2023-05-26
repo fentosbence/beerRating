@@ -1,3 +1,4 @@
+import 'package:beer_app/app/theme/color_palette.dart';
 import 'package:beer_app/app/theme/fonts.dart';
 import 'package:beer_app/widget/app_image.dart';
 import 'package:beer_app/widget/button.dart';
@@ -39,7 +40,13 @@ class BeerListItem extends StatelessWidget {
                     '${beer.alcohol} %',
                     style: Fonts.titleLarge.yellow.bold,
                   ),
-                  Button(text: 'More info', onTap: () {}),
+                  Button.filled(
+                    text: 'More info',
+                    textStyle: Fonts.titleSmall,
+                    onTap: () {},
+                    color: ColorPalette.black,
+                    textColor: ColorPalette.white,
+                  ),
                 ],
               ),
             )

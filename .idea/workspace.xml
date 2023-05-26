@@ -10,12 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6cdb48d0-2a5e-4cdf-958c-ac33b39832d4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/beer_app/lib/app/theme/theme.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beer_app/lib/page/main/sliver_header_delegate.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beer_app/lib/util/util.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beer_app/lib/app/theme/color_palette.dart" beforeDir="false" afterPath="$PROJECT_DIR$/beer_app/lib/app/theme/color_palette.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_app/lib/page/main/beer_list_item.dart" beforeDir="false" afterPath="$PROJECT_DIR$/beer_app/lib/page/main/beer_list_item.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/beer_app/lib/page/main/main_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/beer_app/lib/page/main/main_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_app/lib/widget/button.dart" beforeDir="false" afterPath="$PROJECT_DIR$/beer_app/lib/widget/button.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

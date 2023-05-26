@@ -51,7 +51,14 @@ class _MainPageState extends State<MainPage> {
             SliverChildren(
               padding: Paddings.all16,
               children: [
-                Button(text: "See 5 best beers", onTap: () {}),
+                Button.primary(text: "See 5 best beers", onTap: () {}),
+                Vgap.size16(),
+                Button.filled(
+                  text: "See worst 5 beers",
+                  color: ColorPalette.yellow,
+                  textColor: ColorPalette.black,
+                  onTap: () {},
+                ),
                 Vgap.systemNavbar(context),
               ],
             ),
