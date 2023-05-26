@@ -11,6 +11,7 @@ class Sizes {
   static const size40 = 40.0;
 
   static const radius20 = 20.0;
+  static const radius28 = 28.0;
   static const radius10 = 10.0;
 
   static const icon18 = 18.0;
@@ -27,9 +28,12 @@ class Paddings {
   static const horizontal40 = EdgeInsets.symmetric(horizontal: Sizes.size40);
 
   static const vertical8 = EdgeInsets.symmetric(vertical: Sizes.size8);
+  static const vertical16 = EdgeInsets.symmetric(vertical: Sizes.size16);
 
   static const all8 = EdgeInsets.all(Sizes.size8);
   static const all16 = EdgeInsets.all(Sizes.size16);
+
+  static const top16 = EdgeInsets.only(top: Sizes.size16);
 
   Paddings._();
 }

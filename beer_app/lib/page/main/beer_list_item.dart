@@ -6,8 +6,8 @@ import 'package:beer_app/widget/app_image.dart';
 import 'package:beer_app/widget/button.dart';
 import 'package:flutter/material.dart';
 
-import '../../repository/model/beer.dart';
-import '../../widget/gaps.dart';
+import 'package:beer_app/repository/model/beer.dart';
+import 'package:beer_app/widget/gaps.dart';
 
 class BeerListItem extends StatelessWidget {
   final Beer beer;

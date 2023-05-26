@@ -3,7 +3,11 @@ import 'package:beer_app/api/api_client.dart';
 import 'package:beer_app/app/config/config.dart';
 import 'package:beer_app/core/error/exception_mapper.dart';
 import 'package:beer_app/core/provider/beer_provider.dart';
+import 'package:beer_app/core/provider/category_provider.dart';
+import 'package:beer_app/database/database.dart';
 import 'package:beer_app/l10n/l10n_handler.dart';
+import 'package:beer_app/page/detail/details_model.dart';
+import 'package:beer_app/page/main/main_model.dart';
 import 'package:beer_app/page/splash/splash_model.dart';
 import 'package:beer_app/service/track/console_log_reporter.dart';
 import 'package:beer_app/service/track/logger.dart';
@@ -49,23 +53,19 @@ class IoC {
       exceptionMapper: get(),
     ));
     GetIt.I.registerSingleton(Api(get()));
+    GetIt.I.registerSingleton(Database());
 
     GetIt.I.registerFactory(() => UiHandler());
 
     GetIt.I.registerSingleton(BeerProvider());
+    GetIt.I.registerSingleton(CategoryProvider());
 
     GetIt.I.registerSingleton(ModelMapper());
-    GetIt.I.registerSingleton(ContentRepository(get(), get()));
+    GetIt.I.registerSingleton(ContentRepository(get(), get(), get()));
     GetIt.I.registerSingleton(ContentService(get(), get()));
     GetIt.I.registerFactory(() => SplashModel(get(), get()));
-
-    // GetIt.I.registerSingleton<AppContent>(AppContent());
-    // GetIt.I.registerFactory(() => ActionHandler(get(), get(), get()));
-    // GetIt.I.registerFactory(() => MainModel(get(), get(), get(), get(), get()));
-    // GetIt.I.registerFactory(() => MenuModel(get(), get(), get()));
-    // GetIt.I.registerFactory(() => CategoryModel(get(), get(), get()));
-    // GetIt.I.registerFactory(() => PromotionModel(get(), get()));
-    // GetIt.I.registerFactory(() => BusinessDetailsModel(get()));
+    GetIt.I.registerFactory(() => MainModel(get(), get()));
+    GetIt.I.registerFactory(() => DetailsModel(get(), get()));
   }
 
   static T get<T extends Object>() {

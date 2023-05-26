@@ -138,6 +138,12 @@ abstract class L10n {
   /// In hu, this message translates to:
   /// **'Kérlek, próbálkozz később!'**
   String get error_try_again_later;
+
+  /// No description provided for @error_database.
+  ///
+  /// In hu, this message translates to:
+  /// **'Adatbázis hiba történt, próbálkozz később!'**
+  String get error_database;
 }
 
 class _L10nDelegate extends LocalizationsDelegate<L10n> {

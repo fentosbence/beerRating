@@ -7,10 +7,19 @@ class ContentService {
 
   ContentService(
     this._contentRepo,
-      this._beerProvider,
+    this._beerProvider,
   );
 
   Future<void> loadContent() async {
-    _beerProvider.beers = await _contentRepo.getBeers();
+    _beerProvider.updateBeers(await _contentRepo.getBeers());
+  }
+
+  Future<void> searchBeers(String category) async {
+    _beerProvider.updateBeers(await _contentRepo.getBeersByCategory(category));
+  }
+
+  Future<void> sendVote(int id, int newValue) async {
+    await _contentRepo.sendVote(id, newValue);
+    _beerProvider.updateRatings(id, newValue);
   }
 }

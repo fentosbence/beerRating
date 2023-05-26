@@ -1,10 +1,14 @@
+import 'package:beer_app/app/ioc.dart';
 import 'package:beer_app/app/theme/assets.dart';
 import 'package:beer_app/app/theme/color_palette.dart';
 import 'package:beer_app/app/theme/fonts.dart';
 import 'package:beer_app/app/theme/sizes.dart';
 import 'package:beer_app/app/theme/theme.dart';
+import 'package:beer_app/core/display.dart';
 import 'package:beer_app/core/provider/beer_provider.dart';
 import 'package:beer_app/page/main/beer_list_item.dart';
+import 'package:beer_app/page/main/category_picker.dart';
+import 'package:beer_app/page/main/main_model.dart';
 import 'package:beer_app/page/main/sliver_header_delegate.dart';
 import 'package:beer_app/widget/button.dart';
 import 'package:flutter/material.dart';
@@ -23,8 +27,6 @@ class MainPage extends StatefulWidget {
 }
 
 class _MainPageState extends State<MainPage> {
-  //final _model = IoC.get<MainModel>();
-
   @override
   Widget build(BuildContext context) {
     final beers = Provider.of<BeerProvider>(context);
@@ -40,25 +42,13 @@ class _MainPageState extends State<MainPage> {
               delegate: SliverHeaderDelegate.from(
                 context,
                 showBackButton: false,
-                title: Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Text(
-                      "List of beers",
-                      style: Fonts.headlineLarge.bold
-                          .copyWith(color: ColorPalette.white),
-                      maxLines: 1,
-                    ),
-                    Hgap.size8(),
-                    const Image(
-                      image: Assets.imgBeer,
-                      height: 32,
-                      width: 32,
-                    )
-                  ],
-                ),
+                title: "List of beers",
               ),
               pinned: true,
+            ),
+            const SliverChild(
+              padding: Paddings.top16,
+              child: CategoryPicker(),
             ),
             SliverListBuilder(
               padding: Paddings.horizontal16,

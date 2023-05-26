@@ -21,18 +21,20 @@ class Button extends StatelessWidget {
   factory Button.primary({
     Key? key,
     required String text,
+    TextStyle? style,
+    double? radius,
     VoidCallback? onTap,
   }) {
     return Button(
       key: key,
       text: text,
       onTap: onTap,
-      textStyle: Fonts.titleLarge,
+      textStyle: style ?? Fonts.titleLarge,
       buttonStyle: OutlinedButton.styleFrom(
         padding: const EdgeInsets.symmetric(
             vertical: Sizes.size12, horizontal: Sizes.size24),
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(Sizes.radius10),
+          borderRadius: BorderRadius.circular(radius ?? Sizes.radius10),
         ),
         side: const BorderSide(color: ColorPalette.black, width: 2.0),
       ),
@@ -44,6 +46,7 @@ class Button extends StatelessWidget {
     required String text,
     TextStyle? textStyle,
     VoidCallback? onTap,
+    double? radius,
     required Color color,
     required Color textColor,
   }) {
@@ -62,7 +65,7 @@ class Button extends StatelessWidget {
         ),
         shape: MaterialStateProperty.all(
           RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(Sizes.radius10),
+            borderRadius: BorderRadius.circular(radius ?? Sizes.radius10),
           ),
         ),
         backgroundColor: MaterialStateProperty.resolveWith((states) {

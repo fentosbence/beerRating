@@ -17,7 +17,14 @@ class LogoImage extends StatelessWidget {
     return Container(
       decoration: BoxDecoration(
         borderRadius: radius,
-        color: ColorPalette.white,
+        color: ColorPalette.yellow,
+        boxShadow: const [
+          BoxShadow(
+            color: ColorPalette.shadow,
+            blurRadius: 12,
+            offset: Offset(0, 4),
+          ),
+        ],
       ),
       padding: Paddings.all8,
       child: ClipRRect(

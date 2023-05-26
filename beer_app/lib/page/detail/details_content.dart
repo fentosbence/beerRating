@@ -1,22 +1,30 @@
+import 'package:beer_app/app/ioc.dart';
 import 'package:beer_app/app/theme/assets.dart';
 import 'package:beer_app/app/theme/color_palette.dart';
 import 'package:beer_app/app/theme/fonts.dart';
 import 'package:beer_app/app/theme/sizes.dart';
+import 'package:beer_app/page/detail/details_model.dart';
 import 'package:beer_app/repository/model/beer.dart';
 import 'package:beer_app/widget/ripple.dart';
-import 'package:beer_app/widget/separator.dart';
 
 import 'package:flutter/material.dart';
 
 import 'package:beer_app/widget/gaps.dart';
 
-class DetailsContent extends StatelessWidget {
+class DetailsContent extends StatefulWidget {
   final Beer beer;
 
   const DetailsContent({
     super.key,
     required this.beer,
   });
+
+  @override
+  State<DetailsContent> createState() => _DetailsContentState();
+}
+
+class _DetailsContentState extends State<DetailsContent> {
+  final _model = IoC.get<DetailsModel>();
 
   @override
   Widget build(BuildContext context) {
@@ -28,12 +36,12 @@ class DetailsContent extends StatelessWidget {
           children: [
             Vgap.size16(),
             Text(
-              beer.name,
+              widget.beer.name,
               style: Fonts.headlineMedium.bold,
             ),
-            if (beer.description != null)
+            if (widget.beer.description != null)
               Text(
-                beer.description!,
+                widget.beer.description!,
                 style: Fonts.bodyLarge,
               ),
             Vgap.size12(),
@@ -47,7 +55,7 @@ class DetailsContent extends StatelessWidget {
                       style: Fonts.bodyLarge.bold,
                     ),
                     Text(
-                      '${beer.alcohol} %',
+                      '${widget.beer.alcohol} %',
                       style: Fonts.titleLarge.yellow.bold,
                     ),
                   ],
@@ -61,7 +69,7 @@ class DetailsContent extends StatelessWidget {
                       style: Fonts.bodyLarge.bold,
                     ),
                     Text(
-                      '${beer.ibu} %',
+                      '${widget.beer.ibu} %',
                       style: Fonts.titleLarge.yellow.bold,
                     ),
                   ],
@@ -69,18 +77,17 @@ class DetailsContent extends StatelessWidget {
               ],
             ),
             Vgap.size8(),
-            if (beer.ingredients != null) ...[
+            if (widget.beer.ingredients != null) ...[
               Text(
                 "Ingredients",
                 style: Fonts.titleLarge.bold,
               ),
               Text(
-                beer.ingredients.toString(),
+                widget.beer.ingredients.toString(),
                 style: Fonts.bodyLarge,
               ),
             ],
-            Vgap.size16(),
-            Vgap.size16(),
+            Vgap.size40(),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
@@ -88,17 +95,27 @@ class DetailsContent extends StatelessWidget {
                   "Rate the beer",
                   style: Fonts.headlineSmall.bold,
                 ),
-                Separator(),
-                const CircleAvatar(
-                  backgroundColor: ColorPalette.black,
-                  radius: 20,
-                  child: Image(image: Assets.iconArrowDown),
-                ),
-                Hgap.size4(),
-                const Text('123'),
-                Hgap.size4(),
+                const Spacer(),
                 Ripple(
-                  onTap: () {},
+                  onTap: () {
+                    _model.vote(widget.beer.id, widget.beer.rating - 1);
+                  },
+                  child: const CircleAvatar(
+                    backgroundColor: ColorPalette.black,
+                    radius: 20,
+                    child: Image(image: Assets.iconArrowDown),
+                  ),
+                ),
+                Hgap.size8(),
+                Text(
+                  "${widget.beer.rating}",
+                  style: Fonts.titleLarge,
+                ),
+                Hgap.size8(),
+                Ripple(
+                  onTap: () {
+                    _model.vote(widget.beer.id, widget.beer.rating + 1);
+                  },
                   child: const CircleAvatar(
                     backgroundColor: ColorPalette.black,
                     radius: 20,
@@ -107,7 +124,9 @@ class DetailsContent extends StatelessWidget {
                 ),
               ],
             ),
-            SizedBox(
+            Vgap.size16(),
+            //todo: törölni, a headar animáció tesztelés miatt van bent
+            const SizedBox(
               height: 300,
             ),
             Vgap.systemNavbar(context),

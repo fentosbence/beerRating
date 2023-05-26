@@ -10,15 +10,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6cdb48d0-2a5e-4cdf-958c-ac33b39832d4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/beer_app/lib/page/detail/details_sliver_header_delegate.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beer_app/lib/widget/header/app_header_icon.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/assets/img/2.0x/cancel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/assets/img/3.0x/cancel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/assets/img/cancel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/core/provider/category_provider.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/database/database.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/page/detail/details_model.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/page/main/category_picker.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beer_app/lib/page/main/main_model.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_app/android/app/src/main/res/drawable/launch_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/beer_app/android/app/src/main/res/drawable/launch_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_app/android/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/beer_app/android/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_app/lib/app/app.dart" beforeDir="false" afterPath="$PROJECT_DIR$/beer_app/lib/app/app.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_app/lib/app/ioc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/beer_app/lib/app/ioc.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_app/lib/app/theme/assets.dart" beforeDir="false" afterPath="$PROJECT_DIR$/beer_app/lib/app/theme/assets.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_app/lib/app/theme/sizes.dart" beforeDir="false" afterPath="$PROJECT_DIR$/beer_app/lib/app/theme/sizes.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_app/lib/core/error/exceptions.dart" beforeDir="false" afterPath="$PROJECT_DIR$/beer_app/lib/core/error/exceptions.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_app/lib/core/error/modal_error.dart" beforeDir="false" afterPath="$PROJECT_DIR$/beer_app/lib/core/error/modal_error.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_app/lib/core/provider/beer_provider.dart" beforeDir="false" afterPath="$PROJECT_DIR$/beer_app/lib/core/provider/beer_provider.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_app/lib/l10n/app_hu.arb" beforeDir="false" afterPath="$PROJECT_DIR$/beer_app/lib/l10n/app_hu.arb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_app/lib/l10n/gen/l10n.dart" beforeDir="false" afterPath="$PROJECT_DIR$/beer_app/lib/l10n/gen/l10n.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_app/lib/l10n/gen/l10n_hu.dart" beforeDir="false" afterPath="$PROJECT_DIR$/beer_app/lib/l10n/gen/l10n_hu.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/beer_app/lib/page/detail/details_content.dart" beforeDir="false" afterPath="$PROJECT_DIR$/beer_app/lib/page/detail/details_content.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beer_app/lib/page/detail/details_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/beer_app/lib/page/detail/details_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_app/lib/page/main/beer_list_item.dart" beforeDir="false" afterPath="$PROJECT_DIR$/beer_app/lib/page/main/beer_list_item.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/beer_app/lib/page/main/main_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/beer_app/lib/page/main/main_page.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/beer_app/lib/page/main/sliver_header_delegate.dart" beforeDir="false" afterPath="$PROJECT_DIR$/beer_app/lib/page/main/sliver_header_delegate.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beer_app/lib/util/build_context_extension.dart" beforeDir="false" afterPath="$PROJECT_DIR$/beer_app/lib/util/build_context_extension.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beer_app/lib/widget/app_image.dart" beforeDir="false" afterPath="$PROJECT_DIR$/beer_app/lib/widget/app_image.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_app/lib/page/splash/logo_image.dart" beforeDir="false" afterPath="$PROJECT_DIR$/beer_app/lib/page/splash/logo_image.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_app/lib/page/splash/splash_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/beer_app/lib/page/splash/splash_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_app/lib/repository/content_repository.dart" beforeDir="false" afterPath="$PROJECT_DIR$/beer_app/lib/repository/content_repository.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_app/lib/repository/model/beer.dart" beforeDir="false" afterPath="$PROJECT_DIR$/beer_app/lib/repository/model/beer.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_app/lib/repository/model_mapper.dart" beforeDir="false" afterPath="$PROJECT_DIR$/beer_app/lib/repository/model_mapper.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_app/lib/service/content_service.dart" beforeDir="false" afterPath="$PROJECT_DIR$/beer_app/lib/service/content_service.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer_app/lib/widget/button.dart" beforeDir="false" afterPath="$PROJECT_DIR$/beer_app/lib/widget/button.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,8 +94,8 @@
       <recent name="D:\Flutter\BeerRating\beer-app\beer_app\android\app\src\main\res\mipmap-xxxhdpi" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Flutter\BeerRating\beer-app\beer_app\assets\img\3.0x" />
       <recent name="D:\Flutter\BeerRating\beer-app\beer_app\assets\img\2.0x" />
+      <recent name="D:\Flutter\BeerRating\beer-app\beer_app\assets\img\3.0x" />
       <recent name="D:\Flutter\BeerRating\beer-app\beer_app\assets\img" />
       <recent name="D:\Flutter\BeerRating\beer-app\beer_app\assets\icon" />
       <recent name="D:\Flutter\BeerRating\beer-app\beer_app\lib\core\provider" />
@@ -107,31 +131,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="Dart">
-          <url>file://$PROJECT_DIR$/beer_app/lib/repository/content_repository.dart</url>
-          <line>16</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="Dart">
-          <url>file://$PROJECT_DIR$/beer_app/lib/api/parser.dart</url>
-          <line>16</line>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="Dart">
-          <url>file://$PROJECT_DIR$/beer_app/lib/api/model/beer_response.dart</url>
-          <line>37</line>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="Dart">
-          <url>file://$PROJECT_DIR$/beer_app/lib/api/api_client.dart</url>
-          <line>43</line>
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

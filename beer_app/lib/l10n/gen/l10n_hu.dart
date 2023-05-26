@@ -27,4 +27,7 @@ class L10nHu extends L10n {
 
   @override
   String get error_try_again_later => 'Kérlek, próbálkozz később!';
+
+  @override
+  String get error_database => 'Adatbázis hiba történt, próbálkozz később!';
 }

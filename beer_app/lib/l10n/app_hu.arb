@@ -6,5 +6,6 @@
   "error_oops": "Ajjaj",
   "error_oops_something_went_wrong": "Hoppá, valami hiba történt",
   "error_server": "Szerver hiba történt, kérlek, próbálkozz később!",
-  "error_try_again_later": "Kérlek, próbálkozz később!"
+  "error_try_again_later": "Kérlek, próbálkozz később!",
+  "error_database": "Adatbázis hiba történt, próbálkozz később!"
 }

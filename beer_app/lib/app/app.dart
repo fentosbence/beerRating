@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'package:beer_app/app/config/config.dart';
 import 'package:beer_app/app/ioc.dart';
+import 'package:beer_app/core/provider/category_provider.dart';
 import 'package:beer_app/core/provider/ui_handler.dart';
 import 'package:beer_app/service/track/logger.dart';
 import 'package:flutter/material.dart';
@@ -26,6 +27,7 @@ void startApp() {
       MultiProvider(
         providers: [
           ChangeNotifierProvider(create: (_) => IoC.get<BeerProvider>()),
+          ChangeNotifierProvider(create: (_) => IoC.get<CategoryProvider>()),
         ],
         child: const App(),
       ),

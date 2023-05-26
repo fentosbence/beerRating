@@ -30,7 +30,7 @@ class _SplashPageState extends State<SplashPage> {
   Widget build(BuildContext context) {
     return AppScaffold(
       uiHandler: _model.uiHandler,
-      backgroundColor: ColorPalette.yellow,
+      backgroundColor: ColorPalette.white,
       body: Center(
         child: Column(
           children: [

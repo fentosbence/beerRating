@@ -50,6 +50,12 @@ class _ModalErrorState extends State<ModalError> {
         primaryCallback = widget.error.retryResolver;
         secondaryCallback = widget.onDismiss;
         break;
+      case DatabaseException:
+        title = l10n.error_oops;
+        message = l10n.error_database;
+        secondaryText = l10n.common_cancel;
+        primaryCallback = widget.error.retryResolver;
+        secondaryCallback = widget.onDismiss;
     }
 
     return Column(

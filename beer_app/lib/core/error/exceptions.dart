@@ -29,6 +29,10 @@ class ResponseException extends AppException {
   }) : super(source, message);
 }
 
+class DatabaseException extends AppException {
+  DatabaseException(super.source);
+}
+
 class ApiException extends AppException {
   final int statusCode;
 

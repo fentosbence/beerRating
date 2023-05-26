@@ -10,6 +10,7 @@ class Beer {
   final double? ibu;
   final String? imageUrl;
   final Ingredients? ingredients;
+  final int rating;
 
   Beer({
     required this.id,
@@ -21,5 +22,6 @@ class Beer {
     this.imageUrl,
     this.alcohol,
     this.ingredients,
+    required this.rating,
   });
 }
