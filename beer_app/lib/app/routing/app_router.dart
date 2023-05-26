@@ -1,10 +1,10 @@
 import 'package:beer_app/app/routing/routes.dart';
+import 'package:beer_app/page/detail/details_page.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
-import '../../page/beer_details_page.dart';
-import '../../page/main/main_page.dart';
-import '../../page/splash/splash_page.dart';
+import 'package:beer_app/page/main/main_page.dart';
+import 'package:beer_app/page/splash/splash_page.dart';
 import 'go_router_utils.dart';
 
 class AppRouter {
@@ -36,7 +36,7 @@ class AppRouter {
               path: "beer/:id",
               name: RouteName.details,
               builder: (context, state) {
-                return BeerDetailsPage(
+                return DetailsPage(
                   id: state.intFromPathParams(RouteParam.id),
                 );
               },

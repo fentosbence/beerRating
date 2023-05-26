@@ -1,3 +1,5 @@
+import 'ingredients.dart';
+
 class Beer {
   final int id;
   final String name;
@@ -7,6 +9,7 @@ class Beer {
   final double? alcohol;
   final double? ibu;
   final String? imageUrl;
+  final Ingredients? ingredients;
 
   Beer({
     required this.id,
@@ -17,5 +20,6 @@ class Beer {
     this.description,
     this.imageUrl,
     this.alcohol,
+    this.ingredients,
   });
 }

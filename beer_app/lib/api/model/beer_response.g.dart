@@ -16,26 +16,26 @@ BeerResponse _$BeerResponseFromJson(Map<String, dynamic> json) => BeerResponse(
       (json['ibu'] as num?)?.toDouble(),
       json['ingredients'] == null
           ? null
-          : Ingredients.fromJson(json['ingredients'] as Map<String, dynamic>),
+          : IngredientsResponse.fromJson(json['ingredients'] as Map<String, dynamic>),
       json['tagline'] as String?,
     );
 
-Ingredients _$IngredientsFromJson(Map<String, dynamic> json) => Ingredients(
+IngredientsResponse _$IngredientsFromJson(Map<String, dynamic> json) => IngredientsResponse(
       json['yeast'] as String,
       (json['hops'] as List<dynamic>)
-          .map((e) => Component.fromJson(e as Map<String, dynamic>))
+          .map((e) => ComponentResponse.fromJson(e as Map<String, dynamic>))
           .toList(),
       (json['malt'] as List<dynamic>)
-          .map((e) => Component.fromJson(e as Map<String, dynamic>))
+          .map((e) => ComponentResponse.fromJson(e as Map<String, dynamic>))
           .toList(),
     );
 
-Component _$ComponentFromJson(Map<String, dynamic> json) => Component(
+ComponentResponse _$ComponentFromJson(Map<String, dynamic> json) => ComponentResponse(
       json['name'] as String,
-      Amount.fromJson(json['amount'] as Map<String, dynamic>),
+      AmountResponse.fromJson(json['amount'] as Map<String, dynamic>),
     );
 
-Amount _$AmountFromJson(Map<String, dynamic> json) => Amount(
+AmountResponse _$AmountFromJson(Map<String, dynamic> json) => AmountResponse(
       (json['value'] as num).toDouble(),
       json['unit'] as String,
     );

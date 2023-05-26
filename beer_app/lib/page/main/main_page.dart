@@ -39,7 +39,7 @@ class _MainPageState extends State<MainPage> {
               pinned: true,
             ),
             SliverListBuilder(
-              padding: Paddings.horizontal40,
+              padding: Paddings.horizontal16,
               childCount: beers.beers?.length ?? 0,
               separator: const Separator(),
               itemBuilder: (BuildContext context, int index) {

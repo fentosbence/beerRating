@@ -1,3 +1,5 @@
+import 'package:beer_app/app/ioc.dart';
+import 'package:beer_app/app/routing/routes.dart';
 import 'package:beer_app/app/theme/color_palette.dart';
 import 'package:beer_app/app/theme/fonts.dart';
 import 'package:beer_app/widget/app_image.dart';
@@ -43,7 +45,9 @@ class BeerListItem extends StatelessWidget {
                   Button.filled(
                     text: 'More info',
                     textStyle: Fonts.titleSmall,
-                    onTap: () {},
+                    onTap: () {
+                      IoC.router.push(AppRoute.details(beer.id));
+                    },
                     color: ColorPalette.black,
                     textColor: ColorPalette.white,
                   ),

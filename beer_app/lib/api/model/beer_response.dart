@@ -29,7 +29,7 @@ class BeerResponse {
   final double? ibu;
 
   @JsonKey(name: 'ingredients')
-  final Ingredients? ingredients;
+  final IngredientsResponse? ingredients;
 
   BeerResponse(this.id, this.name, this.imageUrl, this.description, this.abv,
       this.firstBrewed, this.ibu, this.ingredients, this.tagline);
@@ -39,43 +39,44 @@ class BeerResponse {
 }
 
 @JsonSerializable(createToJson: false)
-class Ingredients {
+class IngredientsResponse {
   @JsonKey(name: 'yeast')
   String yeast;
 
   @JsonKey(name: 'malt')
-  List<Component> malt;
+  List<ComponentResponse> malt;
 
   @JsonKey(name: 'hops')
-  List<Component> hops;
+  List<ComponentResponse> hops;
 
-  Ingredients(this.yeast, this.hops, this.malt);
+  IngredientsResponse(this.yeast, this.hops, this.malt);
 
-  factory Ingredients.fromJson(Map<String, dynamic> json) =>
+  factory IngredientsResponse.fromJson(Map<String, dynamic> json) =>
       _$IngredientsFromJson(json);
 }
 
 @JsonSerializable(createToJson: false)
-class Component {
+class ComponentResponse {
   @JsonKey(name: 'name')
   String name;
   @JsonKey(name: 'amount')
-  Amount amount;
+  AmountResponse amount;
 
-  Component(this.name, this.amount);
+  ComponentResponse(this.name, this.amount);
 
-  factory Component.fromJson(Map<String, dynamic> json) =>
+  factory ComponentResponse.fromJson(Map<String, dynamic> json) =>
       _$ComponentFromJson(json);
 }
 
 @JsonSerializable(createToJson: false)
-class Amount {
+class AmountResponse {
   @JsonKey(name: 'value')
   double value;
   @JsonKey(name: 'unit')
   String unit;
 
-  Amount(this.value, this.unit);
+  AmountResponse(this.value, this.unit);
 
-  factory Amount.fromJson(Map<String, dynamic> json) => _$AmountFromJson(json);
+  factory AmountResponse.fromJson(Map<String, dynamic> json) =>
+      _$AmountFromJson(json);
 }
